@@ -34,6 +34,19 @@ python UNIFIED_RSI_EXTENDED.py evolve --fresh --generations 10 --seed 42
 cat .rsi_state/simple_rsi_log.jsonl
 ```
 
+## Performance Note
+
+Evolution is intentionally slow and CPU-intensive:
+- **Generation 1-2**: ~10 seconds (initialization + first candidates)
+- **Generation 3+**: 30-120 seconds per generation (complex program synthesis)
+
+**Expected runtime**:
+- `--generations 3`: ~1 minute
+- `--generations 10`: 5-15 minutes
+- `--iterations 20` (simple_rsi.py): 20-60 minutes
+
+For quick testing, use `--generations 3` or `--iterations 5`.
+
 ## How It Works
 
 1. **Backup**: Creates `UNIFIED_RSI_EXTENDED.py.simple_backup`
