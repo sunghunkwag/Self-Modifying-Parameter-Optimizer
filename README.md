@@ -246,7 +246,7 @@ A: `cp UNIFIED_RSI_EXTENDED.py.simple_backup UNIFIED_RSI_EXTENDED.py`
 
 ---
 
-## 🚫 No Hype
+
 
 What it does:
 - ✅ Modifies numeric parameters in its own file
