@@ -68,9 +68,7 @@ class RewardModel:
 - Python 3.8+
 - Standard library only (no external dependencies)
 
-## No Hype
-
-This is not AGI. This is parameter optimization with source code modification.
+## This is parameter optimization with source code modification.
 The engine modifies numeric constants in its own file and measures if performance improves.
 
 ## License
