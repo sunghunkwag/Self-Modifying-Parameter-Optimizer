@@ -248,8 +248,6 @@ A: `cp UNIFIED_RSI_EXTENDED.py.simple_backup UNIFIED_RSI_EXTENDED.py`
 
 ## 🚫 No Hype
 
-This is **not AGI**. This is **parameter optimization with source code modification**.
-
 What it does:
 - ✅ Modifies numeric parameters in its own file
 - ✅ Measures if performance improves
